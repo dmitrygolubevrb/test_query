@@ -17,7 +17,6 @@ class Client extends Model
     protected $fillable = [
         'name'
     ];
-    private mixed $total_sum_sum_price;
 
     public function orders(): HasMany
     {
